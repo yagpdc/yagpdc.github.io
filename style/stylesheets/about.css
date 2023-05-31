@@ -1,0 +1,23 @@
+
+.hero {
+    width: 55%;
+    
+}
+
+section {
+    margin-bottom: 1rem
+}
+
+.footer-itens {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.icon:hover {
+    transform: scale(1.1);
+}

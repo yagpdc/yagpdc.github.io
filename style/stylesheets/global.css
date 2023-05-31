@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+:root {
+    --bg-primary-color: #1D1D1D;
+    --bg-secondary-color: #0F0F0F;
+    --bg-tertiary-color: #4F349D;
+    --bg-tertiary-hover-color: #35239e;
+    --primary-text-color: #CCCCCC;
+    --secondary-text-color: #FFFFFF;
+    --tertiary-text-color: #992727;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Code', monospace;
+    text-decoration: none;
+    list-style: none;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: var(--bg-primary-color);
+    color: var(--primary-text-color);
+    height: 8vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    text-align: start;
+    margin: 10px;
+}
+
+.nav-itens {
+    font-size: 1.0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-itens li img {
+    padding: 0 2rem;
+    margin-right: 20rem;
+    cursor: pointer;
+}
+
+.nav-itens li a {
+    color: var(--primary-text-color);
+    padding: 0 2rem;
+}
+
+.nav-itens li a:hover {
+    color: var(--secondary-text-color)
+}
+
+body {
+    background-color: var(--bg-secondary-color);
+    color: var(--primary-text-color);
+}
+
+span{
+    color: var(--tertiary-text-color);
+}
