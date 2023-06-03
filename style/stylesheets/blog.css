@@ -1,4 +1,4 @@
-button {
+.btn-group button {
     font-size: 2rem;
     border: none;
     background-color: var(--bg-tertiary-color);
@@ -11,9 +11,13 @@ button {
     transition: color, background 0.1s ease-in-out;
 }
 
-button:hover {
+.btn-group button:hover {
     background-color: var(--bg-tertiary-hover-color);
     color: var(--primary-text-color);
+}
+
+a {
+    color: var(--secondary-text-color);
 }
 
 .hero-blog {

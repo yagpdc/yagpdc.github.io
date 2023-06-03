@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../../style/stylesheets/global.css">
+    <link rel="stylesheet" href="../../style/stylesheets/globalPaginas.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="article-one" class="hide">
+        <h1>Dia um</h1>
+        <p>
+          Hoje tive meu primeiro dia trabalhando com React e decidi utilizar o
+          comando <span>npm create vite@latest </span>para gerar meu projeto
+          React. Durante a configuração, escolhi o TypeScript como minha
+          linguagem preferida. Sempre que começo a aprender um novo framework ou
+          linguagem, gosto de me familiarizar com os métodos mais comumente
+          utilizados nesse contexto.
+        </p>
+        <br />
+        <p>
+          Meu primeiro projeto será a criação de um teclado numérico (numpad),
+          que renderiza uma tela com a mensagem "Senha correta" quando a senha
+          correta é digitada. Caso a senha esteja incorreta, exibirá uma
+          mensagem de "Senha incorreta" e reiniciará a lista de senhas. Para
+          começar, decidi criar os botões utilizando o método map, que é
+          amplamente utilizado no React. Aqui está o código que utilizei para
+          criar os botões:
+        </p>
+
+        <br />
+        <code>
+          CODIGO AQUI
+          <!-- const num: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+
+          {num.map((number, index) => (
+            <button
+              key={index}
+              onClick={() => handleClicksFunction(number)}
+            >
+              {number}
+            </button>
+          ))} -->
+        </code>
+        <p>
+          Depois de tentar algumas abordagens diferentes para entender a
+          sintaxe, descobri que a melhor forma era usar o operador spread (...)
+          na função handleClicksFunction para adicionar o número clicado ao
+          array. Aqui está o código:
+        </p>
+        <code>
+          CODIGO AQUI
+          <!-- const handleClicksFunction = (number: number): void => {
+  setNumbersClicked((numbers) => [...numbers, number]);
+}
+ -->
+        </code>
+        <p>
+          Além disso, criei uma div utilizando novamente o método map para
+          exibir os números clicados na tela:
+        </p>
+        <code>
+          CODIGO AQUI
+          <!-- {numbersClicked.map((number, index) => (
+            <div key={index}>{number}</div>
+          ))} -->
+        </code>
+        <p>
+          Agora, tenho uma tela com 10 botões que, quando clicados, mostram os
+          números selecionados na tela. Esse foi meu primeiro dia trabalhando
+          com React e estou animado para continuar explorando e aprendendo mais
+          sobre esse framework poderoso. Fique atento aos próximos posts para
+          acompanhar o progresso do meu projeto!
+        </p>
+          <img src="" alt="">
+          <!-- IMAGEM DO CODIGO FINAL COM A IMG DO PROJETO COMO ESTA AGORA -->
+      </section>
+</body>
+</html>
